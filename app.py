@@ -258,7 +258,7 @@ from PIL import Image
 penguins_saved = delta_kg / 5000
 
 # 이미지 불러오기
-penguin_img = Image.open("C:/Users/user/Desktop/streamlit/penguin.jpg")
+penguin_img = Image.open("penguin.jpg")
 
 # 펭귄 수만큼 이미지 출력
 if st.button("🐧 펭귄 살린 만큼 보기"):

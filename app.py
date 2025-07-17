@@ -255,7 +255,7 @@ if st.button("탄소 결산 보기"):
 # --- 펭귄 이미지 출력 ---
 from PIL import Image
 
-penguins_saved = delta_kg / 5000
+penguins_saved = delta_kg / 1000
 
 # 이미지 불러오기
 penguin_img = Image.open("penguin.jpg")
